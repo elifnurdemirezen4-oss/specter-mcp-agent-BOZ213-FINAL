@@ -41,7 +41,7 @@ Proje 3 ana katmandan oluşur:
 ## 🚀 Kurulum
 
 ### 1. Gereksinimler
-* Python 3.10 veya üzeri
+* Python 3.11.9
 * [Ollama](https://ollama.com/) (Yüklü ve `llama3` modeli çekilmiş olmalı)
 * Google Cloud Console üzerinden alınmış `credentials.json` dosyası.
 
