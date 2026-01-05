@@ -1,4 +1,4 @@
-# SPECTER 👻: AI Destekli Kurumsal Masaüstü Asistanı
+# SPECTER 👻: MCP TABANLI YAPAY ZEKA OTOMASYONU
 
 Specter, **Model Context Protocol (MCP)** mimarisini kullanarak yerel LLM'leri (Ollama) Google Workspace araçlarıyla (Gmail, Calendar, Drive, Sheets) entegre eden, Python tabanlı akıllı bir masaüstü asistanıdır.
 
