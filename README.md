@@ -49,18 +49,26 @@ specter-mcp-agent/
 * Python 3.11.9
 * [Ollama](https://ollama.com/) (Yüklü ve `llama3` modeli çekilmiş olmalı)
 * Google Cloud Console üzerinden alınmış `credentials.json` dosyası.
-  
-### 2. Kütüphanelerin Yüklenmesi
+
+### 2. Projeyi Bilgisayarınıza İndirin (Klonlayın)
+Terminali (veya Komut İstemi'ni) açın ve şu komutları girin:
+
+```bash
+
+git clone https://github.com/kullanici-adiniz/SPECTER.git
+cd SPECTER
+```
+### 3. Kütüphanelerin Yüklenmesi
 * Terminali açın ve gerekli paketleri yükleyin:
 ```bash
 pip install -r requirements.txt
 ```
-### 3. AI Modelinin Hazırlanması
+### 4. AI Modelinin Hazırlanması
 * Specter varsayılan olarak llama3 modelini kullanır. Terminalden şu komutu çalıştırarak modeli indirin:
 ```bash
 ollama pull llama3
 ```
-### 4. Google API Ayarları
+### 5. Google API Ayarları
 Uygulamanın çalışabilmesi için Google Cloud ayarlarının yapılması gerekmektedir:
 1. [Google Cloud Console](https://console.cloud.google.com/)'da yeni bir proje oluşturun.
 2. **Gmail**, **Calendar**, **Drive** ve **Sheets** API'lerini kütüphaneden bulup etkinleştirin.
@@ -68,7 +76,7 @@ Uygulamanın çalışabilmesi için Google Cloud ayarlarının yapılması gerek
 4. "Desktop App" seçeneği ile bir **OAuth Client ID** oluşturun.
 5. İndirdiğiniz JSON dosyasının adını `credentials.json` olarak değiştirin ve proje ana dizinine atın.
 
-### 5. KULLANIM
+### 5. Kullanım 
 Uygulamayı başlatın:
 ```bash
 python gui_app.py
