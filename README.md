@@ -4,7 +4,7 @@
 ![License](https://img.shields.io/badge/license-MIT-green)
 ![Status](https://img.shields.io/badge/status-active-success)
 
-**Specter**, Model Context Protocol (MCP) mimarisini kullanarak yerel LLM'leri (Ollama) Google Workspace araçlarıyla (Gmail, Calendar, Drive, Sheets) entegre eden, Python tabanlı akıllı bir masaüstü asistanıdır.
+**Specter**, Model Context Protocol (MCP) mimarisini kullanarak yerel LLM'leri (Ollama) Google Workspace araçlarıyla (Gmail, Calendar, Drive, Sheets) entegre eden, Python tabanlı bir yapay zeka otomasyonudur.
 
 <img width="1098" height="828" alt="specter_ss" src="https://github.com/user-attachments/assets/a7e51e40-2393-4d71-9ac2-0543328eafa5" />
 
