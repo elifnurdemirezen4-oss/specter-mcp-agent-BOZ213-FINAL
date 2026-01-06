@@ -1,7 +1,6 @@
 # 👻 SPECTER: MCP Tabanlı Yapay Zeka Otomasyonu
 
 ![Python Version](https://img.shields.io/badge/python-3.11-blue)
-![License](https://img.shields.io/badge/license-MIT-green)
 ![Status](https://img.shields.io/badge/status-active-success)
 
 **Specter**, Model Context Protocol (MCP) mimarisini kullanarak yerel LLM'leri (Ollama) Google Workspace araçlarıyla (Gmail, Calendar, Drive, Sheets) entegre eden, Python tabanlı bir yapay zeka otomasyonudur.
@@ -88,6 +87,3 @@ python gui_app.py
   
 * Hata: Rehber erişilemedi
 * Çözüm: credentials.json dosyasının doğru yerde olduğunu ve Sheets API'nin Google Cloud'da etkinleştirildiğini kontrol edin.
-  
-### 📜 Lisans
- Bu proje MIT Lisansı ile lisanslanmıştır.
