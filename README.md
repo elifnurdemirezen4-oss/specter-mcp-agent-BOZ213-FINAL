@@ -1,6 +1,6 @@
 # 👻 SPECTER: MCP Tabanlı Yapay Zeka Otomasyonu
 
-![Python Version](https://img.shields.io/badge/python-3.11%2B-blue)
+![Python Version](https://img.shields.io/badge/python-3.11-blue)
 ![License](https://img.shields.io/badge/license-MIT-green)
 ![Status](https://img.shields.io/badge/status-active-success)
 
@@ -12,9 +12,9 @@
 
 ## 🌟 Özellikler
 
-* **🤖 Yerel Yapay Zeka:** Verileriniz buluta gitmez. Ollama üzerinden **Llama3** ile %100 yerel çalışır.
-* **📧 Akıllı Mail Analizi:** Gelen kutunuzdaki son mailleri okur, özetler ve bağlama uygun cevap taslakları hazırlar.
-* **📅 Doğal Dil ile Takvim:** *"Yarın Ahmet ile 14:00'te toplantı set et"* dediğinizde Google Takvim'e işler.
+* **🤖 Yerel Yapay Zeka:** Verileriniz buluta gitmez. Ollama üzerinden **Llama3** ile yerel çalışır.
+* **📧 Akıllı Mail Analizi:** Gelen kutusunu tarar, mailleri özetler ve içeriğe en uygun yanıt taslağını saniyeler içinde hazırlar.
+* **📅 Doğal Dil ile komut:** *"Yarın saat 9 için Elif'e mail hazırla"* dediğinizde sizin için bir mail taslağı hazırlar.
 * **👥 Entegre CRM:** Google Sheets tabanlı kişi rehberi oluşturur. İsimleri "Bulanık Arama" (Fuzzy Search) ile bulur (Örn: "Elif" -> "Elif Nur Demirezen").
 * **⚡ Asenkron Arayüz:** PyQt5 ve `asyncio` mimarisi sayesinde işlemler sırasında arayüz donmaz.
 
